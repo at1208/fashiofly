@@ -2,9 +2,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host:https://fashiofly.com
-
-Disallow: https://cms.readifly.com/api/*
+Host: https://fashiofly.com
 
 # Sitemaps
-Sitemap:https://fashiofly.com/server-sitemap.xml
+Sitemap: https://fashiofly.com/server-sitemap.xml
