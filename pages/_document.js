@@ -9,10 +9,10 @@ class MyDocument extends Document {
 if (process.env.NEXT_PUBLIC_PRODUCTION_API) {
   return {
     __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-4BN7QQP6RJ');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YLJ38B6M77');
     `
   };
 }
@@ -34,7 +34,7 @@ if (process.env.NEXT_PUBLIC_PRODUCTION_API) {
           <link defer rel="preconnect" href={process.env.NEXT_PUBLIC_DOMAIN_URL} crossOrigin />
           <link defer rel="preconnect" href="https://www.googletagmanager.com" crossOrigin />
           <link rel="icon" href="/fashiofly.svg" />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-4BN7QQP6RJ"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLJ38B6M77"></script>
           <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
           <script  defer dangerouslySetInnerHTML={this.setGoogleTags()} />
         </Head>
